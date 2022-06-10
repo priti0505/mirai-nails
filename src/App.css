@@ -36,3 +36,96 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+      background-color: #fff !important;
+      color: #c2a01e;
+      border-bottom: 1px solid #c2a01e;
+}
+
+.mirai-MuiSvgIcon-root {
+  color: #c2a01e !important;
+}
+
+
+.mirai-header-text {
+  color: #c2a01e !important;
+}
+
+.mirai-cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.MuiPaper-root {
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px #fff !important;
+  /* border-bottom: 1px dotted #ccc; */
+}
+
+.mirai-MuiPaper-root{
+  border-bottom: 1px dotted #ccc;
+}
+
+.css-17dcqu8-MuiTypography-root-MuiLink-root {
+  color: #c2a01e !important; 
+}
+
+
+.mirai-button {
+  background-color: #c2a01e !important; 
+}
+
+.mirai-outline-button {
+  border: 1px solid #c2a01e !important; 
+  color: #c2a01e !important; 
+}
+
+.mirai-link{
+  color: #c2a01e !important; 
+  text-decoration-color: #c2a01e !important; 
+}
+
+.mirai-link > a:link {
+  text-decoration-color: #c2a01e !important; 
+}
+
+.css-6bxval {
+  padding-top: 64px;
+  padding-bottom: 0 !important;
+}
+
+.mirai-align-right {
+  text-align: justify;
+  float: right;
+}
+
+.css-ah0e1x-MuiPaper-root {
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .mirai-cards-list {
+    display: block;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+  }
+ 
+  .css-ah0e1x-MuiPaper-root {
+      height: 70px !important;
+  }
+
+  .css-x6ilej {
+    padding-top: 0px !important;
+  }
+
+  .mirai-service-title{
+    margin-bottom: 1px !important;
+  }
+}
+
